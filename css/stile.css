@@ -51,7 +51,9 @@
   height: 600px;
 }
 
-
+.first-main img{
+    width: 200px;
+}
 .jumbo-img{
     width: 100%;
     object-fit: cover;
