@@ -1,8 +1,32 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 /* HEADER SECTION */
 
+.container-sony-logo{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+.container-sony-logo img{
+    width: 80px;
+}
+
+.header-nav{
+    background-color: red;
+    margin-top: 30px;
+}
+
+.chevron-down{
+    width: 10px;
+}
