@@ -161,6 +161,21 @@
     width: 350px;
 }
 
+/*  LAST PART MAIN "SOCIAL MEDIA" */
+
+/* FOOTER SECTION */
+
+.footer-section{
+    background-color: rgb(0, 67, 155);
+}
+
+.footer-section .PS-footer{
+    width: 80px;
+}
+
+.globe img{
+    width: 20px;
+}
 
 
 
