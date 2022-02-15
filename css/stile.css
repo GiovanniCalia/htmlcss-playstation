@@ -173,9 +173,23 @@
     width: 80px;
 }
 
+.footer-section li{
+    list-style-type: none;
+}
+
+.footer-section a{
+    color: white;
+}
+
 .globe img{
     width: 20px;
 }
+
+.sie-logo{
+    width: 150px;
+
+}
+
 
 
 
