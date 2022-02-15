@@ -1,8 +1,8 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 /* HEADER SECTION */
 
@@ -37,7 +37,6 @@
 
 /* FIRST MAIN SECTION "JUMBO" */
 
-
 .first-main{
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
@@ -70,7 +69,7 @@
 /* THIRD MAIN SECTION "ECCO LA PLAYSTATION 5" */
 
 .h3-size{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .color-lightblue{
@@ -84,6 +83,13 @@
 /* FOURTH SECTION MAIN "CONSOLE PLAYSTATION 5" */
 
 
+.accessories{
+    padding: 1rem;
+}
+
+.accessories:hover{
+    border-bottom: 2px solid blue;
+}
 
 /* FIFTH SECTION MAIN "IT TAKES TWO" */
 
@@ -187,23 +193,7 @@
 
 .sie-logo{
     width: 150px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERY ZONE */
 
