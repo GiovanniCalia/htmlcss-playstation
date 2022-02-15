@@ -111,7 +111,74 @@
 
 /* SEVENTH SECTION MAIN "ESPLORA PLAYSTATION 4" */
 
-.h4-size{
+.esplora span{
     font-size: 2.5rem;
+}
+
+.h4-size{
+    font-size: 2.7rem;
+}
+
+/* OCTAVE SECTION MAIN "PLAYSTATION PLUS" */
+
+.PlayStation-Plus{
+    background-color: rgb(190, 188, 187);
+}
+
+.PlayStation-Plus .ps-plus{
+    width: 300px;
+}
+
+.PlayStation-Plus button{
+    color: var(--bs-primary);
+    background-color: lightgray;
+}
+
+.PlayStation-Plus .ps-plus-games{
+    width: 350px;
+}
+
+/* NINTH SECTION MAIN "NUOVI SCONTI" */
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY ZONE */
+
+@media  screen and (min-width:768px) and (max-width:992px){
+    .PlayStation-Plus .btn, .console-PS-5 .btn{
+        width: 210px;
+    }
+}
+
+@media  screen and (min-width:992px) and (max-width:1200px){
+
+    .PlayStation-Plus .btn, .console-PS-5 .btn{
+        width: 210px;
+    }
+
+    .PlayStation-Plus .ps-plus-games{
+        width: 500px;
+    }
+
+}
+
+@media  screen and (min-width:1200px){
+
+    .PlayStation-Plus .btn, .console-PS-5 .btn{
+        width: 210px;
+    }
+
+    .PlayStation-Plus .ps-plus-games{
+        width: 700px;
+    }
 }
 
