@@ -123,6 +123,7 @@
 
 .PlayStation-Plus{
     background-color: rgb(190, 188, 187);
+    width: 100%;
 }
 
 .PlayStation-Plus .ps-plus{
@@ -141,6 +142,30 @@
 /* NINTH SECTION MAIN "NUOVI SCONTI" */
 
 
+/* 10TH SECTION MAIN "PLAYSTATION NOW" */
+
+.PlayStation-Now{
+    background-color: rgb(21, 28, 59);
+    width: 100%;
+}
+
+.PlayStation-Now .ps-plus{
+    width: 300px;
+}
+
+.PlayStation-Now button{
+    background-color: lightgray; 
+}
+
+.PlayStation-Now .ps-plus-games{
+    width: 350px;
+}
+
+
+
+
+
+
 
 
 
@@ -154,18 +179,18 @@
 /* MEDIA QUERY ZONE */
 
 @media  screen and (min-width:768px) and (max-width:992px){
-    .PlayStation-Plus .btn, .console-PS-5 .btn{
+    .console-PS-5 .btn,.PlayStation-Plus .btn, .PlayStation-Now .btn{
         width: 210px;
     }
 }
 
 @media  screen and (min-width:992px) and (max-width:1200px){
 
-    .PlayStation-Plus .btn, .console-PS-5 .btn{
+    .console-PS-5 .btn,.PlayStation-Plus .btn, .PlayStation-Now .btn{
         width: 210px;
     }
 
-    .PlayStation-Plus .ps-plus-games{
+    .PlayStation-Plus .ps-plus-games, .PlayStation-Now .ps-plus-games{
         width: 500px;
     }
 
@@ -173,11 +198,11 @@
 
 @media  screen and (min-width:1200px){
 
-    .PlayStation-Plus .btn, .console-PS-5 .btn{
+    .console-PS-5 .btn,.PlayStation-Plus .btn, .PlayStation-Now .btn{
         width: 210px;
     }
 
-    .PlayStation-Plus .ps-plus-games{
+    .PlayStation-Plus .ps-plus-games, .PlayStation-Now .ps-plus-games{
         width: 700px;
     }
 }
