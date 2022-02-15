@@ -105,3 +105,13 @@
     background-color: rgb(31, 31, 31);
 }
 
+.nuove-uscite-cards img{
+    border-radius: 20px;
+}
+
+/* SEVENTH SECTION MAIN "ESPLORA PLAYSTATION 4" */
+
+.h4-size{
+    font-size: 2.5rem;
+}
+
