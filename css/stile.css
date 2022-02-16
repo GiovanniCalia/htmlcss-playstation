@@ -6,10 +6,9 @@
 
 /* HEADER SECTION */
 
-.p_static{
-    position: static;
+.fa-chevron-down{
+    font-size: 10px;
 }
-
 .lens_width{
     width: 60%;
 }
@@ -113,6 +112,7 @@
     text-decoration: none;
     opacity: 0.5;
     width: 15%;
+    border-bottom: 2px solid transparent;
 }
 
 .accessories-visible{
