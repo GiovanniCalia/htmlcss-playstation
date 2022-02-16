@@ -12,20 +12,17 @@
     width: 80px;
 }
 
-.fa-chevron-down, .fa-chevron-up{
+.fa-chevron-down{
     font-size: 12px;
 }
 
-.fa-chevron-up{
-    display: none;
+.rotate_chevron:focus .fa-chevron-down{
+    transform: rotate(180deg);
 }
 
-.fa-chevron-up:focus{
-    display: block;
-}
-
-.fa-chevron-down:focus{
-    display: none;
+.hover-PS5:hover{
+    background-color: transparent;
+    box-shadow: 0 0 8px grey;
 }
 
 .lens_width{
@@ -75,12 +72,20 @@
 
 .first-cards img{
     border-radius: 20px;
+    padding: 4px;
     transition: 0.5s;
     animation-timing-function: linear;
 }
 
-.first-cards img:hover{
+.first-cards .no_border:hover, .border_blue:hover{
     transform: translateY(-1rem);
+}
+
+.border_blue{
+    border: 3px solid rgb(40,121, 253);
+    border-radius: 20px;
+    transition: 0.5s;
+    animation-timing-function: linear;
 }
 
 /* THIRD MAIN SECTION "ECCO LA PLAYSTATION 5" */
@@ -152,10 +157,15 @@
     border-radius: 20px;
 }
 
+.nuove-uscite-cards a{
+    color: white;
+    text-decoration: none;
+}
+
 /* SEVENTH SECTION MAIN "ESPLORA PLAYSTATION 4" */
 
 .esplora span{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .h4-size{
@@ -182,9 +192,6 @@
     width: 350px;
 }
 
-/* NINTH SECTION MAIN "NUOVI SCONTI" */
-
-
 /* 10TH SECTION MAIN "PLAYSTATION NOW" */
 
 .PlayStation-Now{
@@ -204,8 +211,6 @@
     width: 350px;
 }
 
-/*  LAST PART MAIN "SOCIAL MEDIA" */
-
 /* FOOTER SECTION */
 
 .footer-section{
@@ -222,7 +227,18 @@
 
 .footer-section a{
     color: white;
+    text-decoration: none;
 }
+
+.footer-section .text_visible{
+    text-decoration: underline;
+}
+
+.footer-section a:hover{
+    text-decoration: underline;
+}
+
+
 
 .globe img{
     width: 20px;
