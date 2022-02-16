@@ -82,13 +82,27 @@
 
 /* FOURTH SECTION MAIN "CONSOLE PLAYSTATION 5" */
 
-
 .accessories{
-    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
 }
 
-.accessories:hover{
+.accessories-visible{
+    color: black;
+    text-decoration: none;
     border-bottom: 2px solid blue;
+}
+
+
+.accessories:hover{
+    color: black;
+    border-bottom: 2px solid blue;
+    opacity: 1;
+}
+
+.accessories-visible:hover{
+    color: black;
 }
 
 /* FIFTH SECTION MAIN "IT TAKES TWO" */
@@ -213,6 +227,9 @@
         width: 500px;
     }
 
+    .accessories, .accessories-visible{
+        width: 200px;
+    }
 }
 
 @media  screen and (min-width:1200px){
@@ -224,6 +241,5 @@
     .PlayStation-Plus .ps-plus-games, .PlayStation-Now .ps-plus-games{
         width: 700px;
     }
-
 }
 
