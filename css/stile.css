@@ -1,17 +1,4 @@
-/**{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}*/
-
 /* HEADER SECTION */
-
-.fa-chevron-down{
-    font-size: 10px;
-}
-.lens_width{
-    width: 60%;
-}
 
 .container-sony-logo{
     background-color: black;
@@ -25,33 +12,38 @@
     width: 80px;
 }
 
-.header-nav{
-    background-color: white;
+.fa-chevron-down, .fa-chevron-up{
+    font-size: 12px;
 }
 
-.play-logo{
-    width: 80%;
+.fa-chevron-up{
+    display: none;
 }
 
-.list-inline li a{
-    text-decoration: none;
+.fa-chevron-up:focus{
+    display: block;
+}
+
+.fa-chevron-down:focus{
+    display: none;
+}
+
+.lens_width{
+    width: 60%;
+}
+
+.li_mark{
+    margin-right: 2rem;
+    list-style: disc;
+}
+
+.li_mark a{
     color: black;
+    text-decoration: none;
 }
 
-.chevron-down{
-    width: 10px;
-}
-
-
-
-.btn{
-    transition: 0.5s;
-
-}
-
-.btn:hover{
-    border: 1px solid black;
-    box-shadow: 10px black;
+.li_mark a:hover{
+    color: rgb(40,121, 253);
 }
 
 /* FIRST MAIN SECTION "JUMBO" */
@@ -111,12 +103,10 @@
     color: black;
     text-decoration: none;
     opacity: 0.5;
-    width: 15%;
     border-bottom: 2px solid transparent;
 }
 
 .accessories-visible{
-    width: 15%;
     color: black;
     text-decoration: none;
     border-bottom: 2px solid blue;
@@ -264,6 +254,8 @@
         width: 200px;
     }
 }
+
+/* BONUS PERSONALE */
 
 @media  screen and (min-width:1200px){
 
