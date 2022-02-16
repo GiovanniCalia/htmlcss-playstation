@@ -43,6 +43,54 @@
     color: rgb(40,121, 253);
 }
 
+/* BTN ZONE */
+
+.btn{
+    margin: 3px;
+}
+
+.border_btn{
+    border: 3px solid transparent;
+    border-radius: 100px;
+}
+
+.red{
+    width: 129px;
+    height: 50px;
+}
+
+.red:hover{
+    border: 3px solid var(--bs-danger);
+}
+
+.blu_big{
+    width: 195px;
+}
+
+.blu_big:hover{
+    border: 3px solid rgb(40,121, 253);
+}
+
+.blu_little{
+    width: 129px;
+}
+
+.blu_little:hover{
+    border: 3px solid rgb(40,121, 253);
+}
+
+.gry{
+    width: 213px;
+}
+
+.gry:hover, .gry_2:hover{
+    border: 3px solid rgb(211, 211, 211);
+}
+
+.gry_2{
+    width: 215px;
+}
+
 /* FIRST MAIN SECTION "JUMBO" */
 
 .first-main{
@@ -238,8 +286,6 @@
     text-decoration: underline;
 }
 
-
-
 .globe img{
     width: 20px;
 }
@@ -254,12 +300,28 @@
     .console-PS-5 .btn,.PlayStation-Plus .btn, .PlayStation-Now .btn{
         width: 210px;
     }
+
+    .blu_big, .gry{
+        width: 223px;
+    }
+
+    .gry_2{
+        width: 223px;
+    }
 }
 
 @media  screen and (min-width:992px) and (max-width:1200px){
 
     .console-PS-5 .btn,.PlayStation-Plus .btn, .PlayStation-Now .btn{
         width: 210px;
+    }
+
+    .blu_big, .gry{
+        width: 223px;
+    }
+
+    .gry_2{
+        width: 223px;
     }
 
     .PlayStation-Plus .ps-plus-games, .PlayStation-Now .ps-plus-games{
@@ -277,6 +339,14 @@
 
     .console-PS-5 .btn,.PlayStation-Plus .btn, .PlayStation-Now .btn{
         width: 210px;
+    }
+
+    .blu_big, .gry{
+        width: 223px;
+    }
+
+    .gry_2{
+        width: 223px;
     }
 
     .PlayStation-Plus .ps-plus-games, .PlayStation-Now .ps-plus-games{
